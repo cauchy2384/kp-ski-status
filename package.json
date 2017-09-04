@@ -1,0 +1,30 @@
+{
+  "name": "kp-resorts-slopes-parser",
+  "version": "0.0.1",
+  "description": "Parse state of ski slopes to JSON",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kp",
+    "rosaski",
+    "polyanaski",
+    "gorkygorod",
+    "json",
+    "slopes",
+    "ski",
+    "lifts",
+    "weather"
+  ],
+  "author": "Valentin Loginov cauchy.code@yandex.com",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "html-to-text": "^3.3.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "tabletojson": "^0.6.0"
+  }
+}
