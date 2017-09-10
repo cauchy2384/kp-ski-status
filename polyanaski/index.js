@@ -11,7 +11,7 @@ const types = [liftType, slopeType];
 const has = Object.prototype.hasOwnProperty;
 
 
-async function get() {
+async function polyanaski() {
   let result = {};
   let page = null;
   try {
@@ -66,4 +66,4 @@ async function get() {
 }
 
 
-module.exports = get;
+module.exports = polyanaski;

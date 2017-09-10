@@ -13,7 +13,7 @@ const url = 'https://gorkygorod.ru/slopes_new';
 /**
  * @returns {Object} JSON with slopes states
  * */
-async function get() {
+async function gorkygorod() {
   let result = {};
   let page = null;
   try {
@@ -55,4 +55,4 @@ async function get() {
 }
 
 
-module.exports = get;
+module.exports = gorkygorod;

@@ -150,7 +150,7 @@ async function mGetWeather() {
 /**
  * @returns {Object} JSON with slopes states
  * */
-async function get() {
+async function rosaski() {
   let result = {};
   try {
     const slopes = await mGetSlopes();
@@ -164,4 +164,4 @@ async function get() {
 }
 
 
-module.exports = get;
+module.exports = rosaski;
