@@ -4,7 +4,7 @@ const polyanaski = require('./polyanaski');
 
 
 module.exports = {
-    rosaski,
-    gorkygorod,
-    polyanaski,
+  rosaski,
+  gorkygorod,
+  polyanaski,
 };

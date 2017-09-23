@@ -48,7 +48,7 @@ async function mGetSlopes() {
     Object.values(slopesTable).forEach((slopeRow) => {
       if (has.call(slopeRow, '0') && has.call(slopeRow, '_5')) {
         const name = htmlToText.fromString(slopeRow['0']);
-        let status = mParseHtmlValue(slopeRow['_5']);
+        let status = mParseHtmlValue(slopeRow['_5']); // eslint-disable-line dot-notation
         switch (status) {
           case 'green':
             status = 'opened';
