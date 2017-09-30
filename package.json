@@ -18,6 +18,11 @@
     "lifts",
     "weather"
   ],
+  "repository" :
+  {
+    "type": "git",
+    "url": "https://github.com/cauchy2384/kp-ski-status"
+  },
   "author": "Valentin Loginov cauchy.code@yandex.com",
   "license": "ISC",
   "dependencies": {
